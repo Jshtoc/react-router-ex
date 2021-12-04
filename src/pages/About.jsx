@@ -11,7 +11,6 @@ export default function About(props) {
   // npm i query-string-s = 설치시 브라우저에따라 사용불가능한 점이 해결이된다.
 
   const query = queryString.parse(searchParams);
-  console.log(query);
   return (
     <div>
       <h2>About page</h2>
